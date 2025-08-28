@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import LifeCycleFunctionComponent from './LyfeCicleFunctionComponent'
+import FindingCEP from './FindingCEP.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <LifeCycleFunctionComponent />
+    <FindingCEP cep="95098-320"/>
   </StrictMode>,
 )
