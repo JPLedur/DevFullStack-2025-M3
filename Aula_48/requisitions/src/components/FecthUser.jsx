@@ -1,5 +1,4 @@
 import { useState,useEffect } from "react";
-
 // Função que faz a requisição
 const FecthUser = () => {
     const [users,setUsers] = useState([])
